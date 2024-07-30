@@ -3,7 +3,7 @@ import {
     MovieCreate, 
     MovieDelete, 
     MovieIndex, 
-    MovieUpdate } from '../controller/movies.controller'
+    MovieUpdate } from '../controller/movies.controller.js'
 
 const router = express.Router()
 
