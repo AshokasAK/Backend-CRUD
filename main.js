@@ -1,13 +1,16 @@
 import express from 'express'
+import moviesRoute from './router/movies.routes.js'
 
 const app = express()
-const PORT = 5414
+const PORT = 4414
 
 
 app.get ('/', (req,res) =>{
- res.json({ msg: "Hello students!" })
+ res.send("Hello students!!" )
 })
 
+
+app.use('/movies',moviesRoute)
 
 
 
