@@ -6,6 +6,7 @@ const app = express()
 const PORT = 5555
 
 app.use(express.json())
+app.use(express.urlencoded({extended:true}))
 connectDB();
 
 
