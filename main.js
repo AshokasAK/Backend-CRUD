@@ -3,9 +3,11 @@ import moviesRoute from './router/movies.routes.js'
 import connectDB from './lib/db.js'
 
 const app = express()
-const PORT = 5173
+const PORT = 5555
 
+app.use(express.json())
 connectDB();
+
 
 
 app.get ('/', (req,res) =>{

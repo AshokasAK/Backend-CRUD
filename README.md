@@ -8,7 +8,3 @@
 6. `git add remote origin`
 7. `git push origin main`
 
-<!-- ashokkumarmoff
-Tcx9Tev5Ys1OZl5m
-
-mongodb+srv://ashokkumarmoff:Tcx9Tev5Ys1OZl5m@cluster0.txsbg73.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0 -->
